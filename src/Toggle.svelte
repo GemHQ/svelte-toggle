@@ -73,7 +73,6 @@
       {$$restProps.style}"
       {disabled}
       on:click
-      on:click={() => (toggled = !toggled)}
       on:focus
       on:blur
     />
