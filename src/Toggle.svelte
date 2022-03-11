@@ -59,7 +59,7 @@
   $: dispatch("toggle", toggled);
 </script>
 
-<ToggleCore bind:toggled let:label={labelProps} let:button>
+<ToggleCore let:toggled let:label={labelProps} let:button>
   <!-- svelte-ignore a11y-label-has-associated-control -->
   <label {...labelProps} class:hideLabel>{label}</label>
   <div>
